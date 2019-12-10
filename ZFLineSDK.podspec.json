@@ -1,6 +1,6 @@
 {
   "name": "ZFLineSDK",
-  "version": "4.1.1",
+  "version": "5.0.2",
   "summary": "a",
   "description": "h",
   "homepage": "https://github.com/zhfeng20108/LineSDK",
@@ -9,11 +9,11 @@
     "zhfeng": "hhzhangfeng2008@163.com"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "source": {
     "git": "https://github.com/zhfeng20108/LineSDK.git",
-    "tag": "4.1.1"
+    "tag": "5.0.2"
   },
   "frameworks": [
     "Security",
@@ -25,6 +25,6 @@
   "source_files": "LineSDK/LineSDK.framework/Versions/A/Headers/*.h",
   "module_map": "LineSDK/LineSDK.framework/Versions/A/Modules/module.modulemap",
   "xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "LINE_SDK_VERSION='@\"4.1.1\"'"
+    "GCC_PREPROCESSOR_DEFINITIONS": "LINE_SDK_VERSION='@\"5.0.2\"'"
   }
 }
